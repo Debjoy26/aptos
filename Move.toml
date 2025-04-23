@@ -1,0 +1,16 @@
+[package]
+name = "FraudDetection"
+version = "0.2.0"
+upgrade_policy="compatible"
+authors = []
+
+[addresses]
+my_add='0x8c176b636fde8dcdff17583c30ce4086e7629c67be742b1009b8d98ff54e7f2d'
+[dev-addresses]
+my_add='0x8c176b636fde8dcdff17583c30ce4086e7629c67be742b1009b8d98ff54e7f2d'
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
